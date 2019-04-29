@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: url(leaf-image.jpg);
+    background-image: url(./images/sweater-image.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -17,14 +17,43 @@ body {
 }
 
 .navbar.navbar-expand-sm {
-    background-color: transparent !important;
-    color: whitesmoke;
+    background-color: black !important;
+    height: 50px;
+}
+
+.navbar-dark .navbar-text {
+    color: #eceff1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #eceff1;
 }
 
 .navbar-text {
     font-size: 28px;
 }
 
-.navbar-nav .nav-link {
-    color: #fff;
+#text-container {
+    color: whitesmoke;
+    margin: auto;
+    width: 700px;
+    font-size: 22px;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.card {
+    float: left;
+    margin: 10px;
+}
+
+#card-deck {
+    margin: auto;
+    overflow: hidden;
+    max-width: 1000px;
+}
+
+img {
+    height: 230px;
+    opacity: 0.7;
 }
