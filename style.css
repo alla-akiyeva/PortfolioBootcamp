@@ -237,4 +237,9 @@ main > .container {
         overflow: hidden;
     }
 
+    #modalTech {
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
     
