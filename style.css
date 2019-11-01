@@ -224,4 +224,12 @@ main > .container {
         padding: 0;
     }
 
+    #description, #image {
+        width: 45%;
+    }
+
+    .modal-body {
+        display: inherit;
+    }
+
     
