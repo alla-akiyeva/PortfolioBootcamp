@@ -10,7 +10,15 @@ $('#exampleModalCenter').on('show.bs.modal', function (event) {
 
     var modal = $(this)
     modal.find('.modal-title').text(title);
-    modal.find('#modalSummary').text(summary);
+    modal.find('#modalSummary').append(summary);
     modal.find('#modalTech').append(tech);
     modal.find('img').attr('src', image);
+    modal.find('#link').attr('href', link)
+    modal.find('#github').attr('href', github)
+  })
+
+  $('#exampleModalCenter').on('hidden.bs.modal', function (event) {
+    var modal = $(this)
+    modal.find('#modalSummary').empty();
+    modal.find('#modalTech').empty();
   })
